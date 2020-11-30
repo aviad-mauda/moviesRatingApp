@@ -1,0 +1,16 @@
+.slidder-warpper{
+  display: inline-block;
+}
+
+.movie-rating{
+  margin-left: 8vw;
+  margin-top: 2vh;
+}
+
+.slider {
+  display: block;
+}
+
+.mat-slider-horizontal {
+  width: 30vw;
+}

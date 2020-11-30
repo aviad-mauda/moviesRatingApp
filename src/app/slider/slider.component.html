@@ -1,0 +1,16 @@
+<div class="slidder-warpper">
+  <div class="movie-rating">
+    Movie Rating
+  </div>
+  <mat-slider 
+    class = "slider"
+    [disabled] = "disabled"
+    [invert] = "invert"      
+    [thumbLabel] = "thumbLabel"     
+    [(ngModel)] = "value"
+    [vertical] = "vertical"
+    [max]="max"
+    [min]="min"
+    [step]="step">
+  </mat-slider>
+</div>

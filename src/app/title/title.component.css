@@ -1,0 +1,10 @@
+.title{
+    background-color: purple;
+    color: white;
+    line-height: 4vh;
+    display: block;
+    width: 13vw;
+    text-align: center;
+    font-weight: bold;
+    padding: 1vh 3vw;
+}
