@@ -8,7 +8,7 @@ import { catchError, retry } from 'rxjs/operators';
 })
 export class AdminService {
   
-  baseURL: string = "http://localhost:3000";
+  baseURL: string = "https://moviesrating-server.herokuapp.com";
   movie = new Object();
 
   constructor(private http: HttpClient) { }
